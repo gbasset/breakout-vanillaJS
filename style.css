@@ -1,0 +1,75 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    background: linear-gradient(to right, #677191, #859398);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f1f1f1;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 50px auto 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+canvas {
+    background: #f1f1f1;
+    display: block;
+    margin: 0 auto;
+}
+
+.regles {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    text-align: center;
+    margin: 12px auto;
+}
+
+.regles p {
+    font-size: 19px;
+}
+
+.message {
+    font-size: 33px;
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.red {
+    color: rgb(0, 0, 0);
+    background: rgba(155, 155, 155, 0.26);
+}
+
+.green {
+    color: forestgreen;
+    background: rgba(129, 129, 129, 0.479);
+}
+
+.chronotime {
+    width: 300px;
+    font-size: 50px;
+    position: fixed;
+    left: 15%;
+    top: 18%;
+}
