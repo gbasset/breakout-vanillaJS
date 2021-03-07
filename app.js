@@ -176,7 +176,7 @@ function chronoForSessionGlobal() {
   else {
     min = Realmin
   }
-  document.querySelector(".chronotime").innerHTML = "Temps de jeux : " + min + ":" + sec
+  document.querySelector(".chronotime").innerHTML = "Temps de jeux " + min + ":" + sec
 }
 
 canvas.addEventListener('click', () => {
